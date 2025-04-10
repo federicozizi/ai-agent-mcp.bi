@@ -1,22 +1,23 @@
 # Ambiente virtuale
-.venv/
+venv/
 
-# Configurazioni sensibili
+# Variabili d’ambiente
 .env
 
-# Vector store locale
+# Vector Store: dati e output generati
 vector_store/vector.index
 vector_store/corpus.json
+vector_store/data/
 
-# Python cache
+# Cartella dati generati e temporanei
+data/logs/
+data/examples/  # solo se contiene dati reali
+
+# Cache e file di sistema
 __pycache__/
 *.pyc
 *.pyo
-
-# Log e file di sistema
 *.log
 .DS_Store
 Thumbs.db
 
-# Jupyter o test locali (facoltativo)
-*.ipynb

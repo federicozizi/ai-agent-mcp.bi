@@ -56,7 +56,7 @@ Test automatici per controllare che ogni componente funzioni correttamente. Ogni
 Altri file utili
 README.md: questa guida, utile per capire come funziona il progetto.
 
-clean_git.sh: se startato in console pulisce la cache di git e la riaggiorna in base alle specifiche del gitignore modificate
+clean_git.bat: se startato in console pulisce la cache di git e la riaggiorna in base alle specifiche del gitignore modificate
 
 requirements.txt: librerie da installare per far girare l’app (pip install -r requirements.txt).
 
@@ -79,5 +79,14 @@ Integra memoria, retrieval, tools, ecc.
 Loading spinner, dark/light toggle, stile, ecc.
 
 # Testing
+Per test Generali
 1. Assicurarsi di essere nella cartella giusta
-2. 
+2. Lanciare:
+    - python vector_store/store.py : serve per aggiornare il vector store
+    - app_gui.py : lancia l'interfaccia GUI
+
+Per debuggare singoli moduli
+- python agents/planner.py : se ha un blocco __main__ per test locali
+oppure usare un file test come
+- pytest tests/
+

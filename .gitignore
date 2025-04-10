@@ -1,0 +1,22 @@
+# Ambiente virtuale
+.venv/
+
+# Configurazioni sensibili
+.env
+
+# Vector store locale
+vector_store/vector.index
+vector_store/corpus.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Log e file di sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Jupyter o test locali (facoltativo)
+*.ipynb

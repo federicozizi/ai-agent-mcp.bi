@@ -56,30 +56,28 @@ Test automatici per controllare che ogni componente funzioni correttamente. Ogni
 Altri file utili
 README.md: questa guida, utile per capire come funziona il progetto.
 
+clean_git.sh: se startato in console pulisce la cache di git e la riaggiorna in base alle specifiche del gitignore modificate
+
 requirements.txt: librerie da installare per far girare l’app (pip install -r requirements.txt).
 
 LICENSE: licenza del progetto (es. MIT, GPL, ecc.).
 
-# Ordine di sviluppo
+# Logica sviluppo
 Le fasi di sviluppo dell'app
 
 1. Crea la GUI base con customtkinter
 Campo input
-
 Bottone “Esegui”
-
 Area output
-
 Simula la risposta dell’agente con dati finti (es. ["Task 1", "Task 2"])
-
 2. Collega il planner reale
 Usa l’API OpenAI solo nel momento in cui premi il bottone
-
 Mostra i risultati del planner nella GUI
-
 3. Collega l’executor e gli altri moduli (uno alla volta)
 Integra memoria, retrieval, tools, ecc.
-
 4. Rifinisci la GUI
 Loading spinner, dark/light toggle, stile, ecc.
 
+# Testing
+1. Assicurarsi di essere nella cartella giusta
+2. 

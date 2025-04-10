@@ -1,0 +1,10 @@
+openai                     # Per usare le API di ChatGPT e generare embedding
+faiss-cpu                  # Vector store per salvare e cercare embedding
+PyPDF2                     # Estrae testo dai file PDF
+python-dotenv              # Legge variabili da file .env (API key)
+pyyaml                     # Per leggere il file config/settings.yaml
+tqdm                       # Progress bar (opzionale, ma utile)
+pytest                     # Per i test automatici
+python-docx                # Se vuoi indicizzare anche file .docx
+markdown2                  # Per convertire file .md in testo
+customtkinter              # Per interfaccia grafica (gui)
